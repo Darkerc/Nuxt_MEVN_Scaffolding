@@ -1,0 +1,32 @@
+{
+  "defaultSeverity": "default",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {
+    "object-literal-sort-keys": false,
+    "variable-name": false
+  },
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 2,
+        "printWidth": 100,
+        "trailingComma": "all",
+        "bracketSpacing": true
+      }
+    ],
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "variable-name": false,
+    "max-classes-per-file": false,
+    "no-empty": false
+  },
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ]
+}
